@@ -15,7 +15,7 @@ Java agent 使用 Java 25 正式 Class-File API，僅在 `MinecraftServer.tickSe
 可在已建置映像中自行檢查方法：
 
 ```powershell
-docker run --rm --network none --entrypoint javap ominous-trial-reference:26.2 -p -c -classpath /opt/reference/META-INF/versions/26.2/server-26.2.jar net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerStateData
+python scripts/bytecode.py net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerStateData --method getDispensingItems --max-lines 80
 ```
 
 `getDispensingItems` 讀取配置指定的原版戰利品表，使用 `lowResolutionPosition` 回傳值呼叫 `LootTable.getRandomItems`，再把每個物品原始數量轉為權重，候選 ItemStack 的 count 設為 1。adapter 只讀取其回傳值。

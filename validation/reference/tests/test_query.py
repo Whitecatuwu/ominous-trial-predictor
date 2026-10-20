@@ -1,5 +1,6 @@
 """Integration tests at the approved public reference command seam."""
 import json
+import os
 import hashlib
 from pathlib import Path
 import subprocess
@@ -10,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[3]
 ACTUALS = ROOT / ".cache/reference-tests"
 
 
+@unittest.skipUnless(os.environ.get("REFERENCE_ACCEPT_EULA") == "true",
+                     "Read Minecraft EULA and use scripts/dev.py check --integration --accept-eula")
 class ReferenceQueryTest(unittest.TestCase):
     def test_original_query_is_complete_and_repeatable(self):
         command = [sys.executable, str(ROOT / "scripts/reference.py"), "query",
