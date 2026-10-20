@@ -1,0 +1,1107 @@
+{
+  "game_version": "26.2",
+  "reference_method": "TrialSpawnerStateData.getDispensingItems",
+  "rows": [
+    {
+      "mixed_seed": "1",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strength"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:strength",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:strength",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 2
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "0",
+      "position": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "reason": "zero_mixed_seed_uses_world_random_sequence_state",
+      "result": null,
+      "status": "requires_world_state"
+    },
+    {
+      "mixed_seed": "-1",
+      "position": {
+        "x": -30,
+        "y": -30,
+        "z": -30
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:infested"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:infested",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:infested",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:arrow",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.arrow"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:arrow",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "-274877911041",
+      "position": {
+        "x": -31,
+        "y": -31,
+        "z": -31
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:swiftness"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:speed",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:swiftness",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 2
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "1229783982783366761",
+      "position": {
+        "x": 2147483647,
+        "y": 2147483647,
+        "z": 2147483647
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:wind_charged"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:wind_charged",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:wind_charged",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:wind_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.wind_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_cooldown": {
+                "seconds": 0.5
+              },
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:wind_charge",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "-1229783707905455719",
+      "position": {
+        "x": -2147483648,
+        "y": -2147483648,
+        "z": -2147483648
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strength"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:strength",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:strength",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:wind_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.wind_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_cooldown": {
+                "seconds": 0.5
+              },
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:wind_charge",
+            "potion_id": null,
+            "weight": 2
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "274877919232",
+      "position": {
+        "x": 31,
+        "y": -20,
+        "z": 61
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:wind_charged"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:wind_charged",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:wind_charged",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "824633749504",
+      "position": {
+        "x": 93,
+        "y": -20,
+        "z": 183
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:wind_charged"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:wind_charged",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:wind_charged",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:arrow",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.arrow"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_slowness"
+              },
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 3,
+                "base_duration_seconds": 20.0,
+                "base_duration_ticks": 400,
+                "display_level": 4,
+                "effect_id": "minecraft:slowness",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 400
+              }
+            ],
+            "item_id": "minecraft:arrow",
+            "potion_id": "minecraft:strong_slowness",
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "1099511664640",
+      "position": {
+        "x": 124,
+        "y": -20,
+        "z": 244
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:oozing"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:oozing",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:oozing",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:wind_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.wind_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_cooldown": {
+                "seconds": 0.5
+              },
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:wind_charge",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "1649267494912",
+      "position": {
+        "x": 186,
+        "y": -20,
+        "z": 366
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:oozing"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:oozing",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:oozing",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:wind_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.wind_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_cooldown": {
+                "seconds": 0.5
+              },
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:wind_charge",
+            "potion_id": null,
+            "weight": 3
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "3298534985728",
+      "position": {
+        "x": 372,
+        "y": -20,
+        "z": 732
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:oozing"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:oozing",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:oozing",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 3
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "3848290816000",
+      "position": {
+        "x": 434,
+        "y": -20,
+        "z": 854
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:weaving"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:weaving",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:weaving",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "4398046646272",
+      "position": {
+        "x": 496,
+        "y": -20,
+        "z": 976
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:oozing"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:oozing",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:oozing",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:arrow",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.arrow"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:poison"
+              },
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 45.0,
+                "base_duration_ticks": 900,
+                "display_level": 1,
+                "effect_id": "minecraft:poison",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 900
+              }
+            ],
+            "item_id": "minecraft:arrow",
+            "potion_id": "minecraft:poison",
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "13194139926528",
+      "position": {
+        "x": 1457,
+        "y": -20,
+        "z": 2867
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:slow_falling"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 90.0,
+                "base_duration_ticks": 1800,
+                "display_level": 1,
+                "effect_id": "minecraft:slow_falling",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 1800
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:slow_falling",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:arrow",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.arrow"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:arrow",
+            "potion_id": null,
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "1",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strength"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:strength",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:strength",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 2
+          }
+        ]
+      },
+      "status": "ok"
+    }
+  ],
+  "seed": "1",
+  "version_status": "unverified",
+  "world_state": {
+    "config": "minecraft:trial_chamber/melee/zombie/ominous",
+    "data_packs": "vanilla_only",
+    "dimension": "minecraft:overworld",
+    "loot_table": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous",
+    "scope": "dispensing_candidates_and_weights_not_timed_entity_selection",
+    "selected_packs": [
+      "vanilla"
+    ],
+    "spawner_cache": "new_TrialSpawnerStateData_per_position",
+    "world": "fresh_default_world_per_invocation"
+  }
+}

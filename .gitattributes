@@ -1,0 +1,6 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.json text eol=lf
+*.log text eol=lf
+*.properties text eol=lf

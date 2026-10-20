@@ -1,0 +1,10 @@
+**
+!.cache/
+!.cache/minecraft-26.2/
+!.cache/minecraft-26.2/server.jar
+!validation/
+!validation/reference/
+!validation/reference/Dockerfile
+!validation/reference/run.sh
+!validation/reference/src/**
+!validation/reference/tests/ResultNormalizerTest.java

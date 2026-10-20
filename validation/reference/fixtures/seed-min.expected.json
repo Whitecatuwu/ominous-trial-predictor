@@ -1,0 +1,182 @@
+{
+  "game_version": "26.2",
+  "reference_method": "TrialSpawnerStateData.getDispensingItems",
+  "rows": [
+    {
+      "mixed_seed": "-9223372036854775808",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:swiftness"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:speed",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:swiftness",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:fire_charge",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.fire_charge"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [],
+            "item_id": "minecraft:fire_charge",
+            "potion_id": null,
+            "weight": 2
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    {
+      "mixed_seed": "9223371487098966015",
+      "position": {
+        "x": -31,
+        "y": -20,
+        "z": 29
+      },
+      "result": {
+        "dispensing_items": [
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:lingering_potion",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.lingering_potion"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 1,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:weaving"
+              },
+              "minecraft:potion_duration_scale": 0.25,
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 0,
+                "base_duration_seconds": 180.0,
+                "base_duration_ticks": 3600,
+                "display_level": 1,
+                "effect_id": "minecraft:weaving",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 3600
+              }
+            ],
+            "item_id": "minecraft:lingering_potion",
+            "potion_id": "minecraft:weaving",
+            "weight": 1
+          },
+          {
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:break_sound": "minecraft:entity.item.break",
+              "minecraft:enchantments": {},
+              "minecraft:item_model": "minecraft:arrow",
+              "minecraft:item_name": {
+                "translate": "item.minecraft.arrow"
+              },
+              "minecraft:lore": [],
+              "minecraft:max_stack_size": 64,
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_slowness"
+              },
+              "minecraft:rarity": "common",
+              "minecraft:repair_cost": 0,
+              "minecraft:swing_animation": {},
+              "minecraft:tooltip_display": {},
+              "minecraft:use_effects": {}
+            },
+            "count": 1,
+            "effects": [
+              {
+                "amplifier": 3,
+                "base_duration_seconds": 20.0,
+                "base_duration_ticks": 400,
+                "display_level": 4,
+                "effect_id": "minecraft:slowness",
+                "infinite": false,
+                "instant": false,
+                "raw_duration_ticks": 400
+              }
+            ],
+            "item_id": "minecraft:arrow",
+            "potion_id": "minecraft:strong_slowness",
+            "weight": 1
+          }
+        ]
+      },
+      "status": "ok"
+    }
+  ],
+  "seed": "-9223372036854775808",
+  "version_status": "unverified",
+  "world_state": {
+    "config": "minecraft:trial_chamber/melee/zombie/ominous",
+    "data_packs": "vanilla_only",
+    "dimension": "minecraft:overworld",
+    "loot_table": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous",
+    "scope": "dispensing_candidates_and_weights_not_timed_entity_selection",
+    "selected_packs": [
+      "vanilla"
+    ],
+    "spawner_cache": "new_TrialSpawnerStateData_per_position",
+    "world": "fresh_default_world_per_invocation"
+  }
+}

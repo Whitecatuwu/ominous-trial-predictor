@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Taipei",
+  "issue": 1,
+  "review_base": "da2c1f80826c9f8408005156008b0e7533383c81",
+  "host": {
+    "os": "Windows 10 Pro 10.0.19045 x64",
+    "cpu": "Intel Core i5-9400 @ 2.90GHz",
+    "physical_ram_bytes": 8450965504
+  },
+  "runtime": {
+    "java": "Temurin 25.0.4.1+1-LTS x64",
+    "docker_engine": "29.8.1",
+    "container_cpus": 2,
+    "container_memory_gib": 3,
+    "java_max_heap_gib": 2,
+    "network": "none",
+    "peak_memory": "not_measured_for_development_reference"
+  },
+  "suite": {
+    "passed": true,
+    "log": "full-suite.log",
+    "test_methods": 2
+  },
+  "cases": [
+    {
+      "name": "seed-1",
+      "rows": 15,
+      "passed": true,
+      "actual": "seed-1/actual.json",
+      "expected": "../../fixtures/seed-1.expected.json",
+      "actual_sha256": "b08f69d1daf0ea9c078fcd24c1243c6855a7b3f2546e34fb3e397f134d0f9fef",
+      "expected_sha256": "b08f69d1daf0ea9c078fcd24c1243c6855a7b3f2546e34fb3e397f134d0f9fef",
+      "normalizer_tests_passed": true,
+      "elapsed_seconds": 26.82
+    },
+    {
+      "name": "seed-min",
+      "rows": 2,
+      "passed": true,
+      "actual": "seed-min/actual.json",
+      "expected": "../../fixtures/seed-min.expected.json",
+      "actual_sha256": "e2b22ef084728e1958e16866feb7bd26ef97564c650f94f7d6974c11c288e4a2",
+      "expected_sha256": "e2b22ef084728e1958e16866feb7bd26ef97564c650f94f7d6974c11c288e4a2",
+      "normalizer_tests_passed": true,
+      "elapsed_seconds": 23.868
+    },
+    {
+      "name": "seed-max",
+      "rows": 2,
+      "passed": true,
+      "actual": "seed-max/actual.json",
+      "expected": "../../fixtures/seed-max.expected.json",
+      "actual_sha256": "2360e287fb35c3987894b7ac27e2ed89b46ad1f70967706f2d42967bb259bc76",
+      "expected_sha256": "2360e287fb35c3987894b7ac27e2ed89b46ad1f70967706f2d42967bb259bc76",
+      "normalizer_tests_passed": true,
+      "elapsed_seconds": 25.398
+    }
+  ],
+  "repeat_query": {
+    "passed": true,
+    "first_sha256": "ee79b9a7d0f80d70b49355707859ea739870d7c8a99d57980eb97831b83d1212",
+    "second_sha256": "ee79b9a7d0f80d70b49355707859ea739870d7c8a99d57980eb97831b83d1212"
+  },
+  "verification_status": "unverified",
+  "core_comparison_cases_passed": 0,
+  "release_acceptance": "not_run",
+  "source_sha256": {
+    "scripts/reference.py": "1dcf2a4c73cf47c49059b46f0c7b867039731acb4f42792c3c04c24654d8e062",
+    "validation/reference/Dockerfile": "5305f5a1a4b4368dd5f747f0c408d06f7762b07abcd8516a1de01a492509bb1e",
+    "validation/reference/run.sh": "944e9d657fe93d9cf7a20adac0e5677532926ff35f196b24c9bff90febc3c86b",
+    "validation/reference/src/reference/ReferenceAgent.java": "b9738acb8db529d7a41b8b7122f7a39dffd881abd7d9cea4046e3233975ff8c0",
+    "validation/reference/src/reference/ReferenceQuery.java": "cb86f9c83dca3956fd3ef4f8ab536f6dd4034c8e8e0b336d285d2afee6c2c6af",
+    "validation/reference/src/reference/ResultNormalizer.java": "d8172730dd62f7f89bbfedcc13e8a634234cf5556ae203de14fd5d523c13572f",
+    "validation/reference/tests/ResultNormalizerTest.java": "c3a0f5d5a411e2ec2293d3c2a72b43603f1214ad6ff611e4402de2a0f78c977a",
+    "validation/reference/tests/test_query.py": "ffb83267426c7dd021d376a4c7ad58eed83bd174ace79f6ccaff3e1b749be0aa"
+  }
+}
