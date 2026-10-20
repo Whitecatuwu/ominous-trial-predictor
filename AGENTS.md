@@ -33,3 +33,20 @@ Follow `SPEC.md` section 10: each target version requires vanilla reference resu
 There is no commit history yet. Use focused Conventional Commits, for example `feat(core): add seed validation` or `docs: clarify CSV contract`.
 
 PRs should explain what changed, why, relevant specification sections or issues, validation commands and results, and remaining limitations. Include screenshots for GUI changes and reproducible evidence for version-support claims.
+
+## Agent skills
+
+### Issue tracker
+
+Before reading or publishing tickets, read `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues for Whitecatuwu/ominous-trial-predictor.
+
+### Triage labels
+
+Before triaging issues, read `docs/agents/triage-labels.md`.
+Use the five default triage labels.
+
+### Domain docs
+
+Before exploring domain concepts or proposing architecture changes,
+read `docs/agents/domain.md`. This repo uses a single-context layout.
