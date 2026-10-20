@@ -60,8 +60,11 @@ def check(integration=False, accept_eula=False):
     run(["git", "diff", "--check"])
     run(["git", "diff", "--cached", "--check"])
     run([sys.executable, "-m", "unittest", "discover", "-s", "scripts/tests", "-v"])
-    run([sys.executable, "scripts/evidence.py", "verify",
-         "validation/reference/evidence/2026-10-20", "--source-ref", "823e091"])
+    for manifest in sorted((ROOT / "validation/reference/evidence").glob("*/manifest.json")):
+        command = [sys.executable, "scripts/evidence.py", "verify", str(manifest.parent)]
+        if manifest.parent.name == "2026-10-20":
+            command.extend(["--source-ref", "823e091"])
+        run(command)
     if integration:
         if doctor(integration=True):
             return 2

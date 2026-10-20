@@ -15,6 +15,7 @@
 - `python scripts/dev.py check`：9 項工具測試，包含成功封存、覆寫拒絕、來源／provenance 變更拒絕、缺失／損毀／多餘 artifact、歷史／當前來源區別、EULA gate、doctor。
 - `python scripts/dev.py check --integration --accept-eula`：固定映像 Java 編譯檢查與原版完整 2 個 test methods（5 個新世界）通過。補強 receipt 後最新 suite 為 127.503 秒；固定案例 19 列，加 2 次重複查詢。
 - 真實結果封存及唯讀重驗使用全新 `validation/reference/evidence/2026-10-20-retro-final/`；其 summary 釘選受測來源 commit。歷史 snapshot 對 `823e091` Git blobs 另行重驗。
+- 最終來源釘選 `fe3f1c02f30576c6b3d6290cc1b540f124ecf63f`；快速檢查會驗證所有已封存 snapshot，包含此新目錄。
 - Bytecode 工具實測 `getDispensingItems`，只顯示 12 行（方法共 65 行），完整 class 保存快取。
 - doctor 實測：Python 3.13.14、Git 可用、Docker Linux daemon 可用；gh 不在 PATH，正確列為可選缺項。指定 `--github` 時視為環境缺項。
 - 沙箱內 Windows tempfile 與 Docker pipe 權限失敗；相同檢查在獲准的沙箱外通過。這是 agent 執行限制，不算原版測試失敗。
@@ -32,6 +33,8 @@
 獨立唯讀 reviewer 初審有 1 項 P2：receipt 未涵蓋 run request／provenance／log／properties／normalizer。已補齊，新增測試後改動 provenance 必須拒絕發布的回歸測試，再重跑原版 suite。
 
 最終 staged 差異複查：P2 已解決，無剩餘 blocker。reviewer 查閱程式與回歸測試，原版 suite 由主 agent 執行並記錄。
+
+證據封存後追加複查：Standards 無 blocker；Spec reviewer 以 staged Git blobs 獨立核對所有 manifest artifact、來源 commit 雜湊及三組 actual／oracle JSON，均通過。其沙箱無法直接讀取新建目錄，因此採 staged blobs；主 agent 的沙箱外唯讀驗證另已通過。
 
 ## 限制與順序
 

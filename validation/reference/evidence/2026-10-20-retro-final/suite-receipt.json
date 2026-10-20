@@ -1,0 +1,47 @@
+{
+  "source_sha256": {
+    "scripts/reference.py": "1dcf2a4c73cf47c49059b46f0c7b867039731acb4f42792c3c04c24654d8e062",
+    "validation/reference/Dockerfile": "5305f5a1a4b4368dd5f747f0c408d06f7762b07abcd8516a1de01a492509bb1e",
+    "validation/reference/run.sh": "944e9d657fe93d9cf7a20adac0e5677532926ff35f196b24c9bff90febc3c86b",
+    "validation/reference/src/reference/ReferenceAgent.java": "b9738acb8db529d7a41b8b7122f7a39dffd881abd7d9cea4046e3233975ff8c0",
+    "validation/reference/src/reference/ReferenceQuery.java": "cb86f9c83dca3956fd3ef4f8ab536f6dd4034c8e8e0b336d285d2afee6c2c6af",
+    "validation/reference/src/reference/ResultNormalizer.java": "d8172730dd62f7f89bbfedcc13e8a634234cf5556ae203de14fd5d523c13572f",
+    "validation/reference/tests/ResultNormalizerTest.java": "c3a0f5d5a411e2ec2293d3c2a72b43603f1214ad6ff611e4402de2a0f78c977a",
+    "validation/reference/tests/test_query.py": "001d94dcdf3b0781c1a403a46266007274a3ce3176870212da5a2bc98acacac7"
+  },
+  "suite_sha256": "6d975e3f598fbdc6401068dee6cc6775e39e29130f2597112bae668d660138c3",
+  "run_sha256": {
+    ".cache/minecraft-26.2/runs/c2463ea4e37d4c87854bc0b2e6c22d74/request.json": "6b4e7b2c7b06ae856e67cd9d7ec37c26af87ac12a56d1ab6d9b75259e10f3b83",
+    ".cache/minecraft-26.2/runs/c2463ea4e37d4c87854bc0b2e6c22d74/provenance.json": "014d05ba6dede21097bd0d2e6336d2cc98c0368504156f4609df7ab132a6e105",
+    ".cache/minecraft-26.2/runs/c2463ea4e37d4c87854bc0b2e6c22d74/server.log": "75f43b638bc74212dc7e0e7ee56c88cea55ca8a28623a45a54256a81100aa0b1",
+    ".cache/minecraft-26.2/runs/c2463ea4e37d4c87854bc0b2e6c22d74/output/server.properties": "cde89924430e7b482e455f36e2158d2e0220157d94150c9a1049ee8d11328300",
+    ".cache/minecraft-26.2/runs/c2463ea4e37d4c87854bc0b2e6c22d74/output/normalizer-tests.json": "eb9fc15b87dfbd087bbeacffda9065cc6ed0bb2c5704c38403928941544db7af",
+    ".cache/minecraft-26.2/runs/38bc2937104742f5b69879bc183f6138/request.json": "fcb5dee9966c9a33ce9ceb8c32ed5581bb4f265ec2f95a55ed7ba09ebea01a25",
+    ".cache/minecraft-26.2/runs/38bc2937104742f5b69879bc183f6138/provenance.json": "cc5d66e520c7ab72a48878ea024a8a5726d548c04a60529cd206424fe34923c5",
+    ".cache/minecraft-26.2/runs/38bc2937104742f5b69879bc183f6138/server.log": "4f45cbf006573c2e69a43b3897e2942c9a9d3dce1f739fefbad7f8bc1a0b5e62",
+    ".cache/minecraft-26.2/runs/38bc2937104742f5b69879bc183f6138/output/server.properties": "98a1e61fda91c01d802866df7647a03da2968b1f9f2726808478ad44b5cf9221",
+    ".cache/minecraft-26.2/runs/38bc2937104742f5b69879bc183f6138/output/normalizer-tests.json": "eb9fc15b87dfbd087bbeacffda9065cc6ed0bb2c5704c38403928941544db7af",
+    ".cache/minecraft-26.2/runs/f8eb998507d343079aa6158e35d5a8fd/request.json": "a33729850ecd13cbad96419b06a1b4a11d21b74d855d8944f518242a61d50861",
+    ".cache/minecraft-26.2/runs/f8eb998507d343079aa6158e35d5a8fd/provenance.json": "d92c9791915a1eb17f07e19b450e2d1207ce2bc0ad9def66515b749d887c90ed",
+    ".cache/minecraft-26.2/runs/f8eb998507d343079aa6158e35d5a8fd/server.log": "ea2c79b2eb8d431c9cdf04b742c1b8ae92121e2f50cc01737b38efcae9026b5f",
+    ".cache/minecraft-26.2/runs/f8eb998507d343079aa6158e35d5a8fd/output/server.properties": "1e7a53dac087c50a4b9d53846db80f5bacb4a2e5028f227ebcca8a475c734901",
+    ".cache/minecraft-26.2/runs/f8eb998507d343079aa6158e35d5a8fd/output/normalizer-tests.json": "eb9fc15b87dfbd087bbeacffda9065cc6ed0bb2c5704c38403928941544db7af",
+    ".cache/minecraft-26.2/runs/68210db1cbaf4304a3b430a963669deb/request.json": "8b60c79e75ad217a31d3203e8062d71b2e1d31e2183e9607d4da11cfb4e9fea7",
+    ".cache/minecraft-26.2/runs/68210db1cbaf4304a3b430a963669deb/provenance.json": "3f5934ca01be18b27da4940854b15869e9d0756f467c38bd3fe49396d0d0e52e",
+    ".cache/minecraft-26.2/runs/68210db1cbaf4304a3b430a963669deb/server.log": "f50cc88a6e5316b7a1cdef365a40105c3fc1198c86f59cfe7f566624f3126562",
+    ".cache/minecraft-26.2/runs/68210db1cbaf4304a3b430a963669deb/output/server.properties": "510f9dd06e2f951e0f931d96564ff430d288c3ecf46c0406c3af7ec0c10ec5c2",
+    ".cache/minecraft-26.2/runs/0792d16cc3d64870812ab37e9fb0fb42/request.json": "8b60c79e75ad217a31d3203e8062d71b2e1d31e2183e9607d4da11cfb4e9fea7",
+    ".cache/minecraft-26.2/runs/0792d16cc3d64870812ab37e9fb0fb42/provenance.json": "2c8412dbf96fa12ed707e3688260579fb8ae6799915f69b5761465c4999d025e",
+    ".cache/minecraft-26.2/runs/0792d16cc3d64870812ab37e9fb0fb42/server.log": "1986f886051fce52db632a07e71b14ff75cdb2e0f8c84140d6e12dbdd15df1a2",
+    ".cache/minecraft-26.2/runs/0792d16cc3d64870812ab37e9fb0fb42/output/server.properties": "d092350db6f3c86a98e3f26e3e761f199bef3570575d1fdab01f9cfefd849a91"
+  },
+  "result_sha256": {
+    "report.json": "05f9299177b13d7cce5b93b197170b305cf168b0035a75a7ded464f0737a2ebe",
+    "repeat-first.json": "ee79b9a7d0f80d70b49355707859ea739870d7c8a99d57980eb97831b83d1212",
+    "repeat-second.json": "ee79b9a7d0f80d70b49355707859ea739870d7c8a99d57980eb97831b83d1212",
+    "repeat-runs.txt": "8ac6015c67fa1c3eb539c90e1a6945451bf3a8a781c4aeaadcaa71249bb3aae1",
+    "seed-1.actual.json": "b08f69d1daf0ea9c078fcd24c1243c6855a7b3f2546e34fb3e397f134d0f9fef",
+    "seed-min.actual.json": "e2b22ef084728e1958e16866feb7bd26ef97564c650f94f7d6974c11c288e4a2",
+    "seed-max.actual.json": "2360e287fb35c3987894b7ac27e2ed89b46ad1f70967706f2d42967bb259bc76"
+  }
+}
