@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -55,6 +56,15 @@ def bounded(base, name, boundary):
     return path
 
 
+def suite_passed(path):
+    """Accept historical logs and the complete two-test pytest reference suite."""
+    text = path.read_text(encoding="utf-8").strip()
+    if text.endswith("OK"):
+        return True
+    last_line = text.splitlines()[-1] if text else ""
+    return re.fullmatch(r"=+ 2 passed in [0-9.]+s(?: \(.*\))? =+", last_line) is not None
+
+
 def verify(directory, source_ref=None, root=ROOT):
     directory = directory.resolve()
     manifest = load(directory / "manifest.json")
@@ -66,8 +76,7 @@ def verify(directory, source_ref=None, root=ROOT):
         require(digest(path) == expected, f"Artifact hash mismatch: {name}")
     summary = load(directory / "summary.json")
     require(summary["suite"]["passed"] is True, "Suite did not pass")
-    require((directory / summary["suite"]["log"]).read_text(encoding="utf-8").strip().endswith("OK"),
-            "Suite log does not end in OK")
+    require(suite_passed(directory / summary["suite"]["log"]), "Suite log did not pass")
     require(bool(summary["cases"]), "No cases recorded")
     for case in summary["cases"]:
         actual = bounded(directory, case["actual"], directory)
@@ -123,7 +132,7 @@ def archive(destination, suite_log, metadata, source_ref="worktree"):
     require(receipt["suite_sha256"] == digest(suite_log), "Suite log changed since suite")
     for name, expected in receipt["result_sha256"].items():
         require(digest(bounded(cache, name, cache)) == expected, f"Suite output changed: {name}")
-    require(suite_log.read_text(encoding="utf-8").strip().endswith("OK"), "Suite log did not pass")
+    require(suite_passed(suite_log), "Suite log did not pass")
     summary = load(metadata)
     require("host" in summary and "runtime" in summary, "Metadata needs host and runtime")
     summary.update({"suite": {"passed": True, "log": "full-suite.log", "test_methods": 2},

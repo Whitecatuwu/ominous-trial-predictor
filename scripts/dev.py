@@ -59,7 +59,7 @@ def check(integration=False, accept_eula=False):
                     raise ValueError(f"Trailing whitespace: {name}:{number}")
     run(["git", "diff", "--check"])
     run(["git", "diff", "--cached", "--check"])
-    run([sys.executable, "-m", "unittest", "discover", "-s", "scripts/tests", "-v"])
+    run([sys.executable, "-m", "pytest", "scripts/tests", "-v"])
     for manifest in sorted((ROOT / "validation/reference/evidence").glob("*/manifest.json")):
         command = [sys.executable, "scripts/evidence.py", "verify", str(manifest.parent)]
         if manifest.parent.name == "2026-10-20":
@@ -75,7 +75,7 @@ def check(integration=False, accept_eula=False):
         (cache / "suite-receipt.json").unlink(missing_ok=True)
         log = ROOT / ".cache/full-suite.log"
         with log.open("w", encoding="utf-8", newline="\n") as output:
-            result = subprocess.run([sys.executable, "-m", "unittest", "discover", "-s",
+            result = subprocess.run([sys.executable, "-m", "pytest",
                                      "validation/reference/tests", "-v"], cwd=ROOT,
                                     env={**os.environ, "REFERENCE_ACCEPT_EULA": "true"},
                                     stdout=output, stderr=subprocess.STDOUT)

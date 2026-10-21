@@ -25,12 +25,15 @@ git diff --check
 ## 統一檢查與環境預檢
 
 ```powershell
+python -m pip install -r requirements-dev.txt
 python scripts/dev.py doctor
 python scripts/dev.py doctor --integration --github
 python scripts/dev.py check
 # 閱讀並同意 EULA 後：重新編譯 Java + 完整原版整合測試
 python scripts/dev.py check --integration --accept-eula
 ```
+
+Python 測試統一使用 pytest，可直接執行 `python -m pytest scripts/tests -v`。
 
 `check` 執行 Python 語法檢查、whitespace、工具測試及歷史證據完整性驗證，無須 Docker／主機 Java，也不啟動 Minecraft。GitHub Actions 對 push／PR 在 Windows、Linux 自動執行相同快速檢查；整合檢查由已同意 EULA 的操作者明確啟動。doctor 對缺少的可選工具顯示診斷，指定 `--integration`／`--github` 時才要求 Docker Linux daemon／GitHub CLI。
 
